@@ -7,7 +7,7 @@ from hot_order_agent_core import hoa
 st.set_page_config(page_title="Hot Order Agent", layout="wide")
 st.title("🔥 Hot Order Agent Dashboard")
 
-default_orders_path = "data/sample_orders.csv"
+default_orders_path = "Hot_order_agent/data/sample_orders.csv"
 #default_orders_path = "Hot_order_agent\data\sample_orders.csv"
 orders_df = pd.read_csv(default_orders_path)
 
@@ -52,8 +52,8 @@ if results_df is not None and not results_df.empty:
 
 st.markdown("---")
 st.subheader("Customer Communication Log")
-log_path = "logs/communication.log"
-#log_path = "Hot_order_agent\logs\communication.log"
+#log_path = "logs/communication.log"
+log_path = "Hot_order_agent/logs/communication.log"
 if not os.path.exists(log_path):
     open(log_path, "w").write("")
 with open(log_path, "r") as f:

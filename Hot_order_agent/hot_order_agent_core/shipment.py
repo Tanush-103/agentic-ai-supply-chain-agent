@@ -1,7 +1,7 @@
 
 import pandas as pd
 
-RATES_PATH = "data/shipping_rates.csv"
+RATES_PATH = "Hot_order_agent/data/shipping_rates.csv"
 
 def _normalize_priority(val):
     try:

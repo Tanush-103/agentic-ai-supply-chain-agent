@@ -626,3 +626,9 @@
 [2025-09-05T17:35:11.878785Z] order=1004 customer=Initech status=At-Risk dc=DC-East available_qty=100 expedite_cost=$864.0 eta_days=2 sent_to=ayush_agarwal@mckinsey.com cc=None reply_to=ayush_agarwal@mckinsey.com
 [2025-09-05T17:35:13.117434Z] order=140 customer=Acme Corp status=At-Risk dc=DC-East available_qty=100 expedite_cost=$1008.0 eta_days=2 sent_to=kapildevbansal@outlook.com cc=None reply_to=kapildevbansal@outlook.com
 [2025-09-05T17:35:15.430007Z] order=1005 customer=Acme Corp status=OK dc=DC-East available_qty=100 expedite_cost=$495.0 eta_days=3 sent_to=kapildevbansal@outlook.com cc=None reply_to=kapildevbansal@outlook.com
+[2025-09-10T04:09:39.100385Z] order=1001 customer=Acme Corp status=OK dc=DC-East available_qty=50 expedite_cost=$247.5 eta_days=3 EMAIL_ERROR=SMTP_USER and/or SMTP_PASSWORD not set. Configure SMTP in .env
+[2025-09-10T04:09:39.108812Z] order=1002 customer=Globex status=OK dc=DC-West available_qty=20 expedite_cost=$100.0 eta_days=5 EMAIL_ERROR=SMTP_USER and/or SMTP_PASSWORD not set. Configure SMTP in .env
+[2025-09-10T04:09:39.113770Z] order=1003 customer=Soylent status=OK dc=DC-Central available_qty=10 expedite_cost=$44.0 eta_days=2 EMAIL_ERROR=SMTP_USER and/or SMTP_PASSWORD not set. Configure SMTP in .env
+[2025-09-10T04:09:39.118521Z] order=1004 customer=Initech status=At-Risk dc=DC-East available_qty=100 expedite_cost=$864.0 eta_days=2 EMAIL_ERROR=SMTP_USER and/or SMTP_PASSWORD not set. Configure SMTP in .env
+[2025-09-10T04:09:39.122978Z] order=140 customer=Acme Corp status=At-Risk dc=DC-East available_qty=100 expedite_cost=$1008.0 eta_days=2 EMAIL_ERROR=SMTP_USER and/or SMTP_PASSWORD not set. Configure SMTP in .env
+[2025-09-10T04:09:39.127762Z] order=1005 customer=Acme Corp status=OK dc=DC-East available_qty=100 expedite_cost=$495.0 eta_days=3 EMAIL_ERROR=SMTP_USER and/or SMTP_PASSWORD not set. Configure SMTP in .env

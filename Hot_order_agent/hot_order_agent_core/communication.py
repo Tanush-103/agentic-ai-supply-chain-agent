@@ -2,9 +2,8 @@ import os
 import smtplib
 from email.message import EmailMessage
 from datetime import datetime
-from dotenv import load_dotenv
 
-LOG_PATH = "logs/communication.log"
+LOG_PATH = "Hot_order_agent/logs/communication.log"
 
 def _env_bool(key, default=False):
     v = (os.getenv(key, str(default)) or str(default)).strip().lower()
@@ -73,7 +72,6 @@ def send_customer_update(order_id, status, dc, cost, eta, available_qty, custome
     - CC: CEO_EMAIL (if set)
     - Reply-To: defaults to the customer's email (or env override REPLY_TO_EMAIL if set)
     """
-    load_dotenv()
     to_email = _sanitize_email(customer_email) or os.getenv("DEFAULT_CUSTOMER_EMAIL")
     ceo_email = os.getenv("CEO_EMAIL")  # leave empty in .env to disable CC
     reply_to_override = os.getenv("REPLY_TO_EMAIL")
