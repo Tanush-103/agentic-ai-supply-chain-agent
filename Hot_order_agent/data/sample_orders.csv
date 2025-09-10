@@ -1,7 +1,0 @@
-order_id,product,qty,customer,priority,origin,destination,customer_email,png,** address not found **
-1001,Widget A,50,Acme Corp,High,ATL,kb,kb7gf@virginia.edu,,
-1002,Widget B,20,Globex,Normal,DFW,SFO,bansalk20@alum.darden.edu,,
-1003,Widget C,10,Soylent,High,PHL,BOS,kapil_dev_bansal@mckinsey.com,,
-1004,Widget A,120,Initech,Normal,DEN,LAX,ayush_agarwal@mckinsey.com,,
-140,Widget A,140,Acme Corp,Normal,ATL,CHI,kapildevbansal@outlook.com,,
-1005,Widget A,100,Acme Corp,High,ATL,kapildevbansal,kapildevbansal@outlook.com,,
