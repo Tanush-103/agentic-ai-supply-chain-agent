@@ -1,0 +1,11 @@
+
+dc,product,available_qty
+DC-East,Widget A,100
+DC-East,Widget B,30
+DC-East,Widget C,25
+DC-West,Widget A,60
+DC-West,Widget B,250
+DC-West,Widget C,5
+DC-Central,Widget A,10
+DC-Central,Widget B,40
+DC-Central,Widget C,100
